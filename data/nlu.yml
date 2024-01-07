@@ -1,0 +1,118 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+  
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: order_booking
+  examples: |
+    - I am looking to book a room for a week long stay for a family of four. What options do you have available?
+    - Can you provide me with details on room options for a week long booking for a family of four?
+    - I need to reserve accommodations for a family of four for a week. What choices do I have?
+    - What room types can I choose from for a one week stay with accommodation for two adults and two children?
+    - I am interested in booking a room suitable for a family of four for a week. What are the available options and prices?
+
+- intent: menu_serving
+  examples: |
+    - Can you share details about the chef specials or any signature dishes featured on your menu right now?
+    - I am interested in learning more about the current menu standout dishes or chef recommendations. What can you tell me?
+    - What are the standout dishes or specials created by the chef that are currently available on your menu?
+    - Tell me about the unique offerings or chef specials on your current menu that I should not miss.
+    - I would love to know more about the special dishes crafted by your chef. What is featured on the menu right now?
+
+- intent: deleting_order
+  examples: |
+    - I would like to make a change to my food order for tonight. Can you assist me in removing an item?
+    - Is there a way to modify my current food order for tonight by removing one of the items? I need some help with that.
+    - I want to edit my dinner order for tonight. How can I take out an item from the list?
+    - Can you guide me on how to delete or adjust an item from the food order I scheduled for this evening?
+    - I need to make a modification to my dinner order. How do I go about removing an item from the list?
+
+
